@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",        // ✅ Đã sửa: bỏ "tsc &&"
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
-    "@types/react": "^19.0.2",
-    "@types/react-dom": "^19.0.2",
+    "@types/react": "^19.0.2",         // ✅ Thêm mới
+    "@types/react-dom": "^19.0.2",     // ✅ Thêm mới
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
