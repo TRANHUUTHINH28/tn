@@ -1,0 +1,5 @@
+{
+  "name": "Virtual Lab: Đo Cảm Ứng Từ B bằng Cân Đồng Hồ",
+  "description": "Thí nghiệm ảo mô phỏng phép đo cảm ứng từ B của từ trường nam châm điện dựa trên lực từ tác dụng lên đoạn dây dẫn mang dòng điện, tuân thủ chương trình GDPT 2018.",
+  "requestFramePermissions": []
+}
