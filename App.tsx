@@ -170,7 +170,7 @@ const App: React.FC = () => {
                   <span className="font-mono text-xl font-black text-indigo-600">{currentF1 ? (currentF1 * G_CONV).toFixed(2) + 'g' : '--'}</span>
                 </button>
                 <button onClick={handleReadF2} className={`flex flex-col gap-2 p-4 rounded-xl border transition-all ${currentF2 ? 'bg-indigo-50 border-indigo-200' : 'bg-slate-50 border-slate-100 hover:bg-slate-100'}`}>
-                  <span className="text-[12px] font-black text-slate-500 uppercase">Lấy m₂ (I>0)</span>
+                  <span className="text-[12px] font-black text-slate-500 uppercase">Lấy m₂ (I&gt;0)</span>
                   <span className="font-mono text-xl font-black text-indigo-600">{currentF2 ? (currentF2 * G_CONV).toFixed(2) + 'g' : '--'}</span>
                 </button>
               </div>
